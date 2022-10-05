@@ -1,4 +1,4 @@
-install.packages("argparse"
+install.packages("argparse")
 remotes::install_github("trevorld/r-argparse")
 
-"go to github to see how to downlad" https://github.com/trevorld/r-argparse
+Go to github to see how to downlad & for extra implementation: https://github.com/trevorld/r-argparse

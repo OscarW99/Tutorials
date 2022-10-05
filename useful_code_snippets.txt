@@ -1,0 +1,3 @@
+on the terminal...
+PS1='\u:\W\$ '
+This will shorten the command prompt to just 'owright:~$'
