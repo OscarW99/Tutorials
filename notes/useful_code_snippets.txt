@@ -1,3 +1,9 @@
 on the terminal...
 PS1='\u:\W\$ '
 This will shorten the command prompt to just 'owright:~$'
+
+In R...
+ctrl L will clear terminal
+
+Run selected code in terminal on VScode...
+ctrl Q ctrl Enter 
