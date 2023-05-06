@@ -7,6 +7,7 @@ from collections import defaultdict
 from typing import Dict, List, Optional
 from pathlib import Path
 
+# TODO: Set for different countries and job titles.
 
 from scrapfly import ScrapeApiResponse, ScrapeConfig, ScrapflyClient
 
