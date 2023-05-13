@@ -11,7 +11,8 @@ from pathlib import Path
 
 from scrapfly import ScrapeApiResponse, ScrapeConfig, ScrapflyClient
 
-client = ScrapflyClient(key=os.environ["SCRAPFLY_KEY"], max_concurrency=10)
+# os.environ["SCRAPFLY_KEY"]
+client = ScrapflyClient(key='scp-live-a90341cde6ab4bc0a6e382b1cb076c10', max_concurrency=10)
 BASE_CONFIG = {
     # we want can select any country proxy:
     "country": "US",
@@ -63,24 +64,26 @@ def parse_salaries(result: ScrapeApiResponse) -> Dict:
     return salaries
 
 
-async def scrape_salaries(employer: str, employer_id: str, max_pages: Optional[int] = None) -> Dict:
-    """Scrape salary listings"""
-    # scrape first page of jobs:
-    first_page_url = f"https://www.glassdoor.com/Salaries/{employer}-Salaries-E{employer_id}.htm?filter.countryId={BASE_CONFIG['cookies']['tldp']}&minRating=0.0"
+async def scrape_salaries(employer: str, employer_id: str, location: str) -> Dict:
+    """Scrape salary listings for Bioinformatics Scientist jobs"""
+    # scrape first page of salaries:
+    job_title = "Bioinformatics Scientist"
+    encoded_job_title = job_title.replace(" ", "%20")
+    first_page_url = f"https://www.glassdoor.com/Salaries/{employer}-Salaries-E{employer_id}.htm?clickSource=searchBtn&jobTitle={encoded_job_title}&location={location}"
     first_page = await client.async_scrape(ScrapeConfig(url=first_page_url, **BASE_CONFIG))
     salaries = parse_salaries(first_page)
+    # print(salaries)
     total_pages = salaries["pages"]
-    if max_pages and total_pages > max_pages:
-        total_pages = max_pages
 
     print(f"scraped first page of salaries, scraping remaining {total_pages - 1} pages")
     other_pages = [
-        ScrapeConfig(url=f"{first_page_url}&pageNumber={page}", **BASE_CONFIG)
+        ScrapeConfig(url=f"{first_page_url}&page={page}", **BASE_CONFIG)
         for page in range(2, total_pages + 1)
     ]
     async for result in client.concurrent_scrape(other_pages):
         salaries["results"].extend(parse_salaries(result)["results"])
     return salaries
+
 
 async def find_companies(query: str):
     """find company Glassdoor ID and name by query. e.g. "ebay" will return "eBay" with ID 7853"""
@@ -94,22 +97,22 @@ async def find_companies(query: str):
     return data[0]["suggestion"], data[0]["employerId"]
 
 
-async def scrape_salaries(employer: str, employer_id: str, location: str) -> Dict:
-    """Scrape salary listings for bioinformatics jobs"""
-    # scrape first page of salaries:
-    first_page_url = f"https://www.glassdoor.com/Salaries/{employer}-Salaries-E{employer_id}.htm?clickSource=searchBtn&jobTitle={location}%20bioinformatics&location={location}"
-    first_page = await client.async_scrape(ScrapeConfig(url=first_page_url, **BASE_CONFIG))
-    salaries = parse_salaries(first_page)
-    total_pages = salaries["pages"]
+# async def scrape_salaries(employer: str, employer_id: str, location: str) -> Dict:
+#     """Scrape salary listings for bioinformatics jobs"""
+#     # scrape first page of salaries:
+#     first_page_url = f"https://www.glassdoor.com/Salaries/{employer}-Salaries-E{employer_id}.htm?clickSource=searchBtn&jobTitle={location}%20bioinformatics&location={location}"
+#     first_page = await client.async_scrape(ScrapeConfig(url=first_page_url, **BASE_CONFIG))
+#     salaries = parse_salaries(first_page)
+#     total_pages = salaries["pages"]
 
-    print(f"scraped first page of salaries, scraping remaining {total_pages - 1} pages")
-    other_pages = [
-        ScrapeConfig(url=f"{first_page_url}&page={page}", **BASE_CONFIG)
-        for page in range(2, total_pages + 1)
-    ]
-    async for result in client.concurrent_scrape(other_pages):
-        salaries["results"].extend(parse_salaries(result)["results"])
-    return salaries
+#     print(f"scraped first page of salaries, scraping remaining {total_pages - 1} pages")
+#     other_pages = [
+#         ScrapeConfig(url=f"{first_page_url}&page={page}", **BASE_CONFIG)
+#         for page in range(2, total_pages + 1)
+#     ]
+#     async for result in client.concurrent_scrape(other_pages):
+#         salaries["results"].extend(parse_salaries(result)["results"])
+#     return salaries
 
 
 async def run():

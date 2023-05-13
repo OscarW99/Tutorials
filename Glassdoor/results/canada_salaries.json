@@ -1396,6 +1396,2758 @@
         "isHigh": true,
         "percentage": 75
       }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:46094"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 3,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 55616.89,
+      "medianBasePay": 83881.88,
+      "maxBasePay": 126511.36,
+      "totalCompMin": 63314.08,
+      "totalCompMax": 150797.31,
+      "totalCompMedian": 97152.89,
+      "totalAdditionalCashPayMin": 7697.19,
+      "totalAdditionalCashPayMax": 24285.95,
+      "totalAdditionalCashPayMedian": 13271.01,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Data-Analyst-Salaries-E34569_D_KO15,27.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Data-Analyst-Salaries-E34569_D_KO15,27.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 63314.08
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 77515.56
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 97152.89
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 122722.83
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 150797.31
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:8622"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 52791.09,
+      "medianBasePay": 79767.87,
+      "maxBasePay": 120530.04,
+      "totalCompMin": 60539.76,
+      "totalCompMax": 144978.42,
+      "totalCompMedian": 93127.64,
+      "totalAdditionalCashPayMin": 7748.67,
+      "totalAdditionalCashPayMax": 24448.38,
+      "totalAdditionalCashPayMedian": 13359.77,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Analyst-Salaries-E34569_D_KO15,22.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Analyst-Salaries-E34569_D_KO15,22.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 60539.76
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 74205.78
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 93127.64
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 117836.17
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 144978.42
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:21661"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 32791.46,
+      "medianBasePay": 47687.26,
+      "maxBasePay": 69349.61,
+      "totalCompMin": 36511.06,
+      "totalCompMax": 81085.6,
+      "totalCompMedian": 54100.37,
+      "totalAdditionalCashPayMin": 3719.6,
+      "totalAdditionalCashPayMax": 11735.99,
+      "totalAdditionalCashPayMedian": 6413.11,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Graduate-Research-Assistant-Salaries-E34569_D_KO15,42.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Graduate-Research-Assistant-Salaries-E34569_D_KO15,42.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 36511.06
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 43963.11
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 54100.37
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 67059.69
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 81085.6
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:12865"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 48753.84,
+      "medianBasePay": 73978.57,
+      "maxBasePay": 112254.32,
+      "totalCompMin": 56050.01,
+      "totalCompMax": 135275.01,
+      "totalCompMedian": 86558.18,
+      "totalAdditionalCashPayMin": 7296.17,
+      "totalAdditionalCashPayMax": 23020.69,
+      "totalAdditionalCashPayMedian": 12579.61,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Market-Research-Analyst-Salaries-E34569_D_KO15,38.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Market-Research-Analyst-Salaries-E34569_D_KO15,38.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 56050.01
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 68830.34
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 86558.18
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 109753.39
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 135275.01
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:61502"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 79574.18,
+      "medianBasePay": 123323.42,
+      "maxBasePay": 191125.64,
+      "totalCompMin": 94813.25,
+      "totalCompMax": 239207.54,
+      "totalCompMedian": 149597.68,
+      "totalAdditionalCashPayMin": 15239.07,
+      "totalAdditionalCashPayMax": 48081.9,
+      "totalAdditionalCashPayMedian": 26274.26,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Program-Manager-Salaries-E34569_D_KO15,30.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Program-Manager-Salaries-E34569_D_KO15,30.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 94813.25
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 117623.72
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 149597.68
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 192104.36
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 239207.54
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:374140"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 72004.67,
+      "medianBasePay": 108852.45,
+      "maxBasePay": 164556.75,
+      "totalCompMin": 84577.57,
+      "totalCompMax": 204226.43,
+      "totalCompMedian": 130529.87,
+      "totalAdditionalCashPayMin": 12572.9,
+      "totalAdditionalCashPayMax": 39669.68,
+      "totalAdditionalCashPayMedian": 21677.42,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Statisticians-Salaries-E34569_D_KO15,28.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Statisticians-Salaries-E34569_D_KO15,28.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 84577.57
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 103824.86
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 130529.87
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 165660.57
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 204226.43
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:415"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 39349.92,
+      "medianBasePay": 62229.94,
+      "maxBasePay": 98413.55,
+      "totalCompMin": 52877.87,
+      "totalCompMax": 141096.56,
+      "totalCompMedian": 85553.99,
+      "totalAdditionalCashPayMin": 13527.95,
+      "totalAdditionalCashPayMax": 42683.01,
+      "totalAdditionalCashPayMedian": 23324.05,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Community-Manager-Salaries-E34569_D_KO15,32.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Community-Manager-Salaries-E34569_D_KO15,32.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 52877.87
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 66379.93
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 85553.99
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 111868.46
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 141096.56
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:17774"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 67909.57,
+      "medianBasePay": 100571.75,
+      "maxBasePay": 148943.32,
+      "totalCompMin": 91089.8,
+      "totalCompMax": 222080.95,
+      "totalCompMedian": 140537.67,
+      "totalAdditionalCashPayMin": 23180.23,
+      "totalAdditionalCashPayMax": 73137.63,
+      "totalAdditionalCashPayMedian": 39965.92,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Senior-Market-Research-Analyst-Salaries-E34569_D_KO15,45.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Senior-Market-Research-Analyst-Salaries-E34569_D_KO15,45.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 91089.8
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 111760.72
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 140537.67
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 179624.34
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 222080.95
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:40821"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 43650.7,
+      "medianBasePay": 65766.97,
+      "maxBasePay": 99088.78,
+      "totalCompMin": 49154.02,
+      "totalCompMax": 116452.7,
+      "totalCompMedian": 75255.45,
+      "totalAdditionalCashPayMin": 5503.32,
+      "totalAdditionalCashPayMax": 17363.92,
+      "totalAdditionalCashPayMedian": 9488.48,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Desktop-Publisher-Salaries-E34569_D_KO15,32.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Desktop-Publisher-Salaries-E34569_D_KO15,32.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 49154.02
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 60116.66
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 75255.45
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 94892.73
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 116452.7
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:12906"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 49329.64,
+      "medianBasePay": 85051.09,
+      "maxBasePay": 155252.87,
+      "totalCompMin": 76006.66,
+      "totalCompMax": 239423.48,
+      "totalCompMedian": 131045.96,
+      "totalAdditionalCashPayMin": 26677.02,
+      "totalAdditionalCashPayMax": 84170.61,
+      "totalAdditionalCashPayMedian": 45994.87,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Marketing-Salaries-E34569_D_KO15,24.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Marketing-Salaries-E34569_D_KO15,24.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 76006.66
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 98284.47
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 131045.96
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 181152.07
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 239423.48
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:679413"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 77189.32,
+      "medianBasePay": 117794.7,
+      "maxBasePay": 179760.48,
+      "totalCompMin": 92692.93,
+      "totalCompMax": 228677.04,
+      "totalCompMedian": 144525.06,
+      "totalAdditionalCashPayMin": 15503.61,
+      "totalAdditionalCashPayMax": 48916.56,
+      "totalAdditionalCashPayMedian": 26730.36,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-HR-Business-Partner-Salaries-E34569_D_KO15,34.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-HR-Business-Partner-Salaries-E34569_D_KO15,34.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 92692.93
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 114339.38
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 144525.06
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 184578.65
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 228677.04
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:135208"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 39541.01,
+      "medianBasePay": 60677.11,
+      "maxBasePay": 93111.23,
+      "totalCompMin": 46548.83,
+      "totalCompMax": 115222.11,
+      "totalCompMedian": 72759.56,
+      "totalAdditionalCashPayMin": 7007.82,
+      "totalAdditionalCashPayMax": 22110.88,
+      "totalAdditionalCashPayMedian": 12082.45,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Social-Media-Community-Manager-Salaries-E34569_D_KO15,45.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Social-Media-Community-Manager-Salaries-E34569_D_KO15,45.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 46548.83
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 57490.67
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 72759.56
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 92938.57
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 115222.11
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:3142791"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 74809.8,
+      "medianBasePay": 115256.77,
+      "maxBasePay": 177571.98,
+      "totalCompMin": 89414.43,
+      "totalCompMax": 223652.09,
+      "totalCompMedian": 140437.16,
+      "totalAdditionalCashPayMin": 14604.63,
+      "totalAdditionalCashPayMax": 46080.11,
+      "totalAdditionalCashPayMedian": 25180.39,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Postdoctoral-Bioinformatics-Research-Scientist-Salaries-E34569_D_KO15,61.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Postdoctoral-Bioinformatics-Research-Scientist-Salaries-E34569_D_KO15,61.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 89414.43
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 110683.51
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 140437.16
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 179962.59
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 223652.09
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:41189"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 101957.87,
+      "medianBasePay": 162850.45,
+      "maxBasePay": 260110.08,
+      "totalCompMin": 132127.01,
+      "totalCompMax": 355298.92,
+      "totalCompMedian": 214866.21,
+      "totalAdditionalCashPayMin": 30169.14,
+      "totalAdditionalCashPayMax": 95188.84,
+      "totalAdditionalCashPayMedian": 52015.76,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Director-of-Technology-Salaries-E34569_D_KO15,37.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Director-of-Technology-Salaries-E34569_D_KO15,37.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 132127.01
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 166277.5
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 214866.21
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 281207.14
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 355298.92
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:11757"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 70461.9,
+      "medianBasePay": 110169.09,
+      "maxBasePay": 172252.34,
+      "totalCompMin": 85228.09,
+      "totalCompMax": 218842.22,
+      "totalCompMedian": 135628.04,
+      "totalAdditionalCashPayMin": 14766.19,
+      "totalAdditionalCashPayMax": 46589.88,
+      "totalAdditionalCashPayMedian": 25458.95,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Bioinformatician-Salaries-E34569_D_KO15,31.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Bioinformatician-Salaries-E34569_D_KO15,31.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 85228.09
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 106162.33
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 135628.04
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 175041.74
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 218842.22
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:13376"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 49225.41,
+      "medianBasePay": 74614.19,
+      "maxBasePay": 113097.63,
+      "totalCompMin": 57247.84,
+      "totalCompMax": 138409.79,
+      "totalCompMedian": 88445.97,
+      "totalAdditionalCashPayMin": 8022.43,
+      "totalAdditionalCashPayMax": 25312.16,
+      "totalAdditionalCashPayMedian": 13831.78,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Marketing-Research-Salaries-E34569_D_KO15,33.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Marketing-Research-Salaries-E34569_D_KO15,33.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 57247.84
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 70313.57
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 88445.97
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 112245.74
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 138409.79
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:46094"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 3,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 55616.89,
+      "medianBasePay": 83881.88,
+      "maxBasePay": 126511.36,
+      "totalCompMin": 63314.08,
+      "totalCompMax": 150797.31,
+      "totalCompMedian": 97152.89,
+      "totalAdditionalCashPayMin": 7697.19,
+      "totalAdditionalCashPayMax": 24285.95,
+      "totalAdditionalCashPayMedian": 13271.01,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Data-Analyst-Salaries-E34569_D_KO15,27.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Data-Analyst-Salaries-E34569_D_KO15,27.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 63314.08
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 77515.56
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 97152.89
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 122722.83
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 150797.31
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:8622"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 52791.09,
+      "medianBasePay": 79767.87,
+      "maxBasePay": 120530.04,
+      "totalCompMin": 60539.76,
+      "totalCompMax": 144978.42,
+      "totalCompMedian": 93127.64,
+      "totalAdditionalCashPayMin": 7748.67,
+      "totalAdditionalCashPayMax": 24448.38,
+      "totalAdditionalCashPayMedian": 13359.77,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Analyst-Salaries-E34569_D_KO15,22.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Analyst-Salaries-E34569_D_KO15,22.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 60539.76
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 74205.78
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 93127.64
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 117836.17
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 144978.42
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:21661"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 32791.46,
+      "medianBasePay": 47687.26,
+      "maxBasePay": 69349.61,
+      "totalCompMin": 36511.06,
+      "totalCompMax": 81085.6,
+      "totalCompMedian": 54100.37,
+      "totalAdditionalCashPayMin": 3719.6,
+      "totalAdditionalCashPayMax": 11735.99,
+      "totalAdditionalCashPayMedian": 6413.11,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Graduate-Research-Assistant-Salaries-E34569_D_KO15,42.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Graduate-Research-Assistant-Salaries-E34569_D_KO15,42.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 36511.06
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 43963.11
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 54100.37
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 67059.69
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 81085.6
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:12865"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 48753.84,
+      "medianBasePay": 73978.57,
+      "maxBasePay": 112254.32,
+      "totalCompMin": 56050.01,
+      "totalCompMax": 135275.01,
+      "totalCompMedian": 86558.18,
+      "totalAdditionalCashPayMin": 7296.17,
+      "totalAdditionalCashPayMax": 23020.69,
+      "totalAdditionalCashPayMedian": 12579.61,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Market-Research-Analyst-Salaries-E34569_D_KO15,38.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Market-Research-Analyst-Salaries-E34569_D_KO15,38.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 56050.01
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 68830.34
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 86558.18
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 109753.39
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 135275.01
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:61502"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 79574.18,
+      "medianBasePay": 123323.42,
+      "maxBasePay": 191125.64,
+      "totalCompMin": 94813.25,
+      "totalCompMax": 239207.54,
+      "totalCompMedian": 149597.68,
+      "totalAdditionalCashPayMin": 15239.07,
+      "totalAdditionalCashPayMax": 48081.9,
+      "totalAdditionalCashPayMedian": 26274.26,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Program-Manager-Salaries-E34569_D_KO15,30.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Program-Manager-Salaries-E34569_D_KO15,30.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 94813.25
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 117623.72
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 149597.68
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 192104.36
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 239207.54
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:374140"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 72004.67,
+      "medianBasePay": 108852.45,
+      "maxBasePay": 164556.75,
+      "totalCompMin": 84577.57,
+      "totalCompMax": 204226.43,
+      "totalCompMedian": 130529.87,
+      "totalAdditionalCashPayMin": 12572.9,
+      "totalAdditionalCashPayMax": 39669.68,
+      "totalAdditionalCashPayMedian": 21677.42,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Statisticians-Salaries-E34569_D_KO15,28.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Statisticians-Salaries-E34569_D_KO15,28.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 84577.57
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 103824.86
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 130529.87
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 165660.57
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 204226.43
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:415"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 39349.92,
+      "medianBasePay": 62229.94,
+      "maxBasePay": 98413.55,
+      "totalCompMin": 52877.87,
+      "totalCompMax": 141096.56,
+      "totalCompMedian": 85553.99,
+      "totalAdditionalCashPayMin": 13527.95,
+      "totalAdditionalCashPayMax": 42683.01,
+      "totalAdditionalCashPayMedian": 23324.05,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Community-Manager-Salaries-E34569_D_KO15,32.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Community-Manager-Salaries-E34569_D_KO15,32.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 52877.87
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 66379.93
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 85553.99
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 111868.46
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 141096.56
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:17774"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 67909.57,
+      "medianBasePay": 100571.75,
+      "maxBasePay": 148943.32,
+      "totalCompMin": 91089.8,
+      "totalCompMax": 222080.95,
+      "totalCompMedian": 140537.67,
+      "totalAdditionalCashPayMin": 23180.23,
+      "totalAdditionalCashPayMax": 73137.63,
+      "totalAdditionalCashPayMedian": 39965.92,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Senior-Market-Research-Analyst-Salaries-E34569_D_KO15,45.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Senior-Market-Research-Analyst-Salaries-E34569_D_KO15,45.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 91089.8
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 111760.72
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 140537.67
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 179624.34
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 222080.95
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:40821"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 43650.7,
+      "medianBasePay": 65766.97,
+      "maxBasePay": 99088.78,
+      "totalCompMin": 49154.02,
+      "totalCompMax": 116452.7,
+      "totalCompMedian": 75255.45,
+      "totalAdditionalCashPayMin": 5503.32,
+      "totalAdditionalCashPayMax": 17363.92,
+      "totalAdditionalCashPayMedian": 9488.48,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Desktop-Publisher-Salaries-E34569_D_KO15,32.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Desktop-Publisher-Salaries-E34569_D_KO15,32.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 49154.02
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 60116.66
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 75255.45
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 94892.73
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 116452.7
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:12906"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 49329.64,
+      "medianBasePay": 85051.09,
+      "maxBasePay": 155252.87,
+      "totalCompMin": 76006.66,
+      "totalCompMax": 239423.48,
+      "totalCompMedian": 131045.96,
+      "totalAdditionalCashPayMin": 26677.02,
+      "totalAdditionalCashPayMax": 84170.61,
+      "totalAdditionalCashPayMedian": 45994.87,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Marketing-Salaries-E34569_D_KO15,24.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Marketing-Salaries-E34569_D_KO15,24.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 76006.66
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 98284.47
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 131045.96
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 181152.07
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 239423.48
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:679413"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 77189.32,
+      "medianBasePay": 117794.7,
+      "maxBasePay": 179760.48,
+      "totalCompMin": 92692.93,
+      "totalCompMax": 228677.04,
+      "totalCompMedian": 144525.06,
+      "totalAdditionalCashPayMin": 15503.61,
+      "totalAdditionalCashPayMax": 48916.56,
+      "totalAdditionalCashPayMedian": 26730.36,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-HR-Business-Partner-Salaries-E34569_D_KO15,34.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-HR-Business-Partner-Salaries-E34569_D_KO15,34.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 92692.93
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 114339.38
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 144525.06
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 184578.65
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 228677.04
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:135208"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 39541.01,
+      "medianBasePay": 60677.11,
+      "maxBasePay": 93111.23,
+      "totalCompMin": 46548.83,
+      "totalCompMax": 115222.11,
+      "totalCompMedian": 72759.56,
+      "totalAdditionalCashPayMin": 7007.82,
+      "totalAdditionalCashPayMax": 22110.88,
+      "totalAdditionalCashPayMedian": 12082.45,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Social-Media-Community-Manager-Salaries-E34569_D_KO15,45.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Social-Media-Community-Manager-Salaries-E34569_D_KO15,45.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 46548.83
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 57490.67
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 72759.56
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 92938.57
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 115222.11
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:3142791"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 74809.8,
+      "medianBasePay": 115256.77,
+      "maxBasePay": 177571.98,
+      "totalCompMin": 89414.43,
+      "totalCompMax": 223652.09,
+      "totalCompMedian": 140437.16,
+      "totalAdditionalCashPayMin": 14604.63,
+      "totalAdditionalCashPayMax": 46080.11,
+      "totalAdditionalCashPayMedian": 25180.39,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Postdoctoral-Bioinformatics-Research-Scientist-Salaries-E34569_D_KO15,61.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Postdoctoral-Bioinformatics-Research-Scientist-Salaries-E34569_D_KO15,61.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 89414.43
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 110683.51
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 140437.16
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 179962.59
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 223652.09
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:41189"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 101957.87,
+      "medianBasePay": 162850.45,
+      "maxBasePay": 260110.08,
+      "totalCompMin": 132127.01,
+      "totalCompMax": 355298.92,
+      "totalCompMedian": 214866.21,
+      "totalAdditionalCashPayMin": 30169.14,
+      "totalAdditionalCashPayMax": 95188.84,
+      "totalAdditionalCashPayMedian": 52015.76,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Director-of-Technology-Salaries-E34569_D_KO15,37.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Director-of-Technology-Salaries-E34569_D_KO15,37.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 132127.01
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 166277.5
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 214866.21
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 281207.14
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 355298.92
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:11757"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 70461.9,
+      "medianBasePay": 110169.09,
+      "maxBasePay": 172252.34,
+      "totalCompMin": 85228.09,
+      "totalCompMax": 218842.22,
+      "totalCompMedian": 135628.04,
+      "totalAdditionalCashPayMin": 14766.19,
+      "totalAdditionalCashPayMax": 46589.88,
+      "totalAdditionalCashPayMedian": 25458.95,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Bioinformatician-Salaries-E34569_D_KO15,31.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Bioinformatician-Salaries-E34569_D_KO15,31.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 85228.09
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 106162.33
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 135628.04
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 175041.74
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 218842.22
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
+    },
+    {
+      "__typename": "EmployerSalary",
+      "salaryEstimatesFromJobListings": false,
+      "currency": {
+        "__typename": "Currency",
+        "code": "USD"
+      },
+      "employer": {
+        "__ref": "Employer:34569"
+      },
+      "jobTitle": {
+        "__ref": "JobTitle:13376"
+      },
+      "obscuring": "NONE",
+      "payPeriod": "ANNUAL",
+      "count": 1,
+      "employerTotalCount": 18,
+      "employmentStatus": "REGULAR",
+      "minBasePay": 49225.41,
+      "medianBasePay": 74614.19,
+      "maxBasePay": 113097.63,
+      "totalCompMin": 57247.84,
+      "totalCompMax": 138409.79,
+      "totalCompMedian": 88445.97,
+      "totalAdditionalCashPayMin": 8022.43,
+      "totalAdditionalCashPayMax": 25312.16,
+      "totalAdditionalCashPayMedian": 13831.78,
+      "links": {
+        "__typename": "EiSalaryLinks",
+        "employerSalariesByCompanyLogoUrl": "/Salary/BioInformatics-Salaries-E34569.htm",
+        "employerSalariesAllLocationsInfositeUrl": "/Salary/BioInformatics-Marketing-Research-Salaries-E34569_D_KO15,33.htm",
+        "employerSalariesInfositeUrl": "/Salary/BioInformatics-Marketing-Research-Salaries-E34569_D_KO15,33.htm"
+      },
+      "totalCompPercentiles": [
+        {
+          "__typename": "Percentile",
+          "ident": "P005",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P05",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P10",
+          "value": 57247.84
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P25",
+          "value": 70313.57
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P50",
+          "value": 88445.97
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P75",
+          "value": 112245.74
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P90",
+          "value": 138409.79
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P95",
+          "value": null
+        },
+        {
+          "__typename": "Percentile",
+          "ident": "P995",
+          "value": null
+        }
+      ],
+      "totalPayInsights": {
+        "__typename": "TotalPayInsights",
+        "isHigh": true,
+        "percentage": 75
+      }
     }
   ]
 }

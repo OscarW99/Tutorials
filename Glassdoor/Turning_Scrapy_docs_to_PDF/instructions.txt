@@ -1,0 +1,62 @@
+Clone the repository
+As before, you should clone the Scrapy repository.
+
+shell
+Copy code
+git clone https://github.com/scrapy/scrapy.git
+Install the required libraries
+In the scrapy/docs directory, there's a requirements.txt file that lists all the Python libraries you need to build the documentation. You can install these with pip.
+
+shell
+Copy code
+cd scrapy/docs
+pip install -r requirements.txt
+Build the documentation
+Use the provided make command to build the HTML documentation.
+
+shell
+Copy code
+make html
+This will generate the documentation in the build/html directory.
+
+To view the documentation in your default browser, use:
+
+shell
+Copy code
+make htmlview
+If you want to clean up all generated documentation files and start from scratch, use:
+
+shell
+Copy code
+make clean
+And if you want to recreate the documentation automatically when you make changes, you first need to install watchdog:
+
+shell
+Copy code
+pip install watchdog
+Then you can use:
+
+shell
+Copy code
+make watch
+Alternatively, you can use tox to compile the documentation:
+
+shell
+Copy code
+tox -e docs
+This will generate the documentation in the .tox/docs/tmp/html directory.
+
+Now, if you want to convert the generated HTML documentation to PDF, you'll need to follow the wkhtmltopdf step from the previous guide:
+
+Install wkhtmltopdf
+You can download wkhtmltopdf from this link: https://wkhtmltopdf.org/downloads.html. Make sure to add wkhtmltopdf to your PATH during the installation process.
+
+Convert HTML to PDF
+Navigate to the build/html directory and convert the index.html to PDF:
+
+shell
+Copy code
+cd build/html
+wkhtmltopdf index.html output.pdf
+This will give you a PDF version of the Scrapy documentation.
+Please note that this process will only convert the index.html page to a PDF. If you want to convert all the pages, you might need to write a script to iterate over all HTML files in the directory and convert them one by one.
