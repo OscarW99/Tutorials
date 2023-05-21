@@ -1,3 +1,8 @@
+# TODO...
+# add confidence level to the tuple
+# Modify it to loop through countries and job titles.
+
+
 import time
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -10,6 +15,7 @@ url = "https://www.glassdoor.com/Salaries/us-bioinformatics-scientist-salary-SRC
 
 # Configure ChromeDriver options
 chrome_options = Options()
+chrome_options.add_argument("--disable-popup-blocking")
 # chrome_options.add_argument("--headless")  # Run Chrome in headless mode
 
 # Set up ChromeDriver service
@@ -30,6 +36,8 @@ option_elements = driver.find_elements("css selector", 'div[data-test="occ-media
 years_of_experience_options = [option.text.strip() for option in option_elements]
 years_of_experience_options = [option for option in years_of_experience_options if option != '']
 
+data = []
+
 for option in years_of_experience_options:
     # Find the dropdown menu element
     dropdown_element = driver.find_element("css selector", 'div[data-test="occ-median-filters-desktop-experience-dropdownContent"]')
@@ -49,8 +57,7 @@ for option in years_of_experience_options:
     )
     # Iterate over the salary values and print them
     for salary in salary_values:
+        data.append((option, salary))
         print(salary)
     print("-" * 30)
-
-# Close the browser
-driver.quit()
+    
