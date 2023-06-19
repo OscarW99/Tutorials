@@ -1,0 +1,17 @@
+# How I created the conda environment for this bioinfo_pipeline
+# First download miniconda and add to path
+
+conda create -n bioinfo_pipeline r-base python pandas matplotlib
+
+conda activate bioinfo_pipeline
+conda install -c r r-stringi r-stringr
+conda install -c conda-forge r-tidyr
+conda install -c bioconda bioconductor-geoquery
+
+
+# inside of R...
+
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("Biobase")
+BiocManager::install("airway")
