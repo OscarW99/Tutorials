@@ -12,7 +12,7 @@ from pathlib import Path
 from scrapfly import ScrapeApiResponse, ScrapeConfig, ScrapflyClient
 
 # os.environ["SCRAPFLY_KEY"]
-client = ScrapflyClient(key='scp-live-a90341cde6ab4bc0a6e382b1cb076c10', max_concurrency=10)
+client = ScrapflyClient(key='', max_concurrency=10)
 BASE_CONFIG = {
     # we want can select any country proxy:
     "country": "US",
